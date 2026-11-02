@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://diamedika.ru/sitemap.xml
+Sitemap: https://karpovai9696-spec.github.io/diamedika-site/sitemap.xml
