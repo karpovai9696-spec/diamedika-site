@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://diamedika.ru/</loc></url>
-  <url><loc>https://diamedika.ru/o-klinike.html</loc></url>
-  <url><loc>https://diamedika.ru/uslugi.html</loc></url>
   <url><loc>https://diamedika.ru/gostevoj-dializ.html</loc></url>
+  <url><loc>https://diamedika.ru/</loc></url>
   <url><loc>https://diamedika.ru/kontakty.html</loc></url>
   <url><loc>https://diamedika.ru/licenzii.html</loc></url>
+  <url><loc>https://diamedika.ru/o-klinike.html</loc></url>
   <url><loc>https://diamedika.ru/politika-obrabotki-pdn.html</loc></url>
+  <url><loc>https://diamedika.ru/sitemap.html</loc></url>
   <url><loc>https://diamedika.ru/soglasie-na-obrabotku-pdn.html</loc></url>
+  <url><loc>https://diamedika.ru/uslugi.html</loc></url>
 </urlset>
