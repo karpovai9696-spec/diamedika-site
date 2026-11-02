@@ -62,7 +62,13 @@
 
   var stored = null;
   try { stored = localStorage.getItem(KEY); } catch (e) {}
-  if (stored && CENTERS[stored]) update(stored);
+  var pageCenter = document.body.getAttribute('data-page-center');
+  if (pageCenter && CENTERS[pageCenter]) {
+    update(pageCenter);
+    try { localStorage.setItem(KEY, pageCenter); } catch (e) {}
+  } else if (stored && CENTERS[stored]) {
+    update(stored);
+  }
 
   var links = document.querySelectorAll('#city-menu [data-center]');
   for (var i = 0; i < links.length; i++) {
