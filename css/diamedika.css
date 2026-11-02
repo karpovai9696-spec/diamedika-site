@@ -73,6 +73,60 @@
 .form-note{grid-column:1 / -1;margin:7px 0 0;font-size:.72rem;line-height:1.45;color:var(--muted)}
 .form-note a{color:var(--teal-800)}
 
+/* ===== Общие разделы ===== */
+.header-search{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;color:var(--teal-800);border:1px solid var(--border);background:rgba(255,255,255,.6)}
+.header-search:hover{background:#fff}
+.header-search .icon{width:19px;height:19px}
+.news-list{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.news-card{padding:20px;display:flex;flex-direction:column;align-items:flex-start}
+.news-card__date{margin:0 0 7px;font-size:.73rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--teal-600)}
+.news-card__title{margin:0 0 8px;font-size:1.02rem;line-height:1.35;color:var(--ink)}
+.news-card__text{margin:0 0 14px;font-size:.86rem;line-height:1.55;color:var(--text)}
+.news-card__link{margin-top:auto;font-size:.8rem;font-weight:700;color:var(--teal-700)}
+.news-card__link:hover{text-decoration:underline}
+.insurance-intro{padding:18px 20px;margin-bottom:14px}
+.insurance-intro p{margin:0;font-size:.9rem;line-height:1.6;color:var(--text)}
+.insurer-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.insurer-card{padding:20px}
+.insurer-card h2{margin:0 0 6px;font-size:1rem;line-height:1.35;color:var(--ink)}
+.insurer-card>p{margin:0 0 12px;font-size:.82rem;line-height:1.5;color:var(--muted)}
+.insurer-facts{margin:0;display:grid;gap:7px}
+.insurer-facts div{display:grid;gap:2px}
+.insurer-facts dt{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--teal-600)}
+.insurer-facts dd{margin:0;font-size:.82rem;line-height:1.45;color:var(--text)}
+.insurer-facts a{color:var(--teal-800)}
+.staff-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:14px}
+.staff-card{padding:17px}
+.staff-card__center{margin:0 0 5px;font-size:.68rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-600)}
+.staff-card h2{margin:0 0 5px;font-size:.92rem;line-height:1.3;color:var(--ink)}
+.staff-card__role{margin:0;font-size:.78rem;line-height:1.4;color:var(--muted)}
+.vacancy-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.vacancy-card{padding:20px}
+.vacancy-card h2{margin:0 0 5px;font-size:1rem;line-height:1.35;color:var(--ink)}
+.vacancy-card__meta{margin:0 0 8px;font-size:.72rem;font-weight:700;color:var(--teal-600)}
+.vacancy-card p{margin:0 0 8px;font-size:.82rem;line-height:1.5;color:var(--text)}
+.search-form{display:flex;align-items:flex-end;gap:10px;padding:18px 20px;margin-bottom:14px}
+.search-form .field{flex:1;margin:0}
+.search-form .input{width:100%}
+.search-count{margin:0 0 10px;font-size:.82rem;color:var(--muted)}
+.search-results{display:flex;flex-direction:column;gap:9px}
+.search-result{padding:15px 18px;border-radius:var(--r-md);background:rgba(255,255,255,.65);border:1px solid var(--border)}
+.search-result h2{margin:0 0 4px;font-size:.95rem;color:var(--ink)}
+.search-result p{margin:0 0 6px;font-size:.8rem;line-height:1.45;color:var(--muted)}
+.search-result a{font-size:.8rem;font-weight:700;color:var(--teal-700)}
+.search-empty{padding:16px;border-radius:var(--r-md);background:rgba(255,255,255,.6);color:var(--muted);font-size:.86rem}
+.sitemap-list{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:5px 18px}
+.sitemap-list li{font-size:.86rem;line-height:1.6}
+.sitemap-list a{color:var(--teal-800)}
+.sitemap-list a:hover{text-decoration:underline}
+@media (max-width:900px){
+  .news-list,.insurer-grid,.vacancy-grid,.staff-grid{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .search-form{flex-direction:column;align-items:stretch}
+  .search-form .field{width:100%}
+}
+
 .contact-bottom{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:22px 24px}
 .contact-bottom__label{margin:0 0 4px;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .contact-bottom__phone{display:inline-block;margin-bottom:6px;font-size:1.2rem;font-weight:800;color:var(--ink);text-decoration:none}
